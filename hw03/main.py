@@ -24,6 +24,7 @@ def draw_n_angle(aTurtle, size=50, num=5, color=None):
 ##    
     if color:
         aTurtle.begin_fill()
+        aTurtle.color('red')
         aTurtle.fillcolor(color)
     for i in range(num):
         aTurtle.forward(size)
